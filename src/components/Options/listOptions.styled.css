@@ -1,0 +1,27 @@
+.list-option ul {
+    list-style: none;
+    color: white;
+}
+
+.list-option ul div {
+    width: 350px;
+}
+.list-option ul div li {
+    /* border: 1px solid red; */
+
+    border-radius: 10px;
+    margin-left: -40px;
+}
+.list-option ul div li :hover {
+    background: #303031;
+    border-radius: 10px;
+}
+.list-option ul div li div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.list-option ul div li div > img {
+    padding: 0px 10px;
+}

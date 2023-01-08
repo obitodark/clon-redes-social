@@ -1,0 +1,21 @@
+.icons-publication {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-top: 1px solid rgb(87, 87, 87);
+}
+.icons-publication div {
+    display: flex;
+    align-items: center;
+}
+.container-view-coment {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-view-coment div:last-child {
+    color: rgb(121, 119, 119);
+    display: flex;
+    /* border: 1px solid red; */
+}
