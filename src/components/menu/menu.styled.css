@@ -147,9 +147,10 @@ body {
         justify-content: start;
     }
     .container-menu > div:last-child {
-        /* position: relative;
-        left: -80px; */
-        /* border: 1px solid red; */
+        position: relative;
+        left: -80px;
+        z-index: -1;
+        border: 1px solid red;
     }
 
     .div-icon-center {
