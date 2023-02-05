@@ -10,10 +10,7 @@ const MediaPost = () => {
                 </p>
             </div>
             <div>
-                <img
-                    src="https://scontent.faqp2-2.fna.fbcdn.net/v/t39.30808-6/323425250_873905873662018_4857325752809015728_n.jpg?stp=dst-jpg_p526x296&_nc_cat=1&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Vxd1Q9DHkJcAX-nnuuC&_nc_ht=scontent.faqp2-2.fna&oh=00_AfDLl_sxsfEthje_hjnAvjcRoNRxzXjsWSqptM3AtEUM1w&oe=63BB8643"
-                    alt=""
-                />
+                <img src="https://pxccdn.ciudadano.news/ciudadano/032020/1584969937293/meme-20.jpg?" alt="" />
             </div>
         </div>
     );
