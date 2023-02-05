@@ -1,11 +1,13 @@
 import { API_URL } from '../api';
 
-const getUserRandon = async (cant = 1) => {
+const getUserRandon = async (cant = 50) => {
     try {
-        const response = await fetch(`${API_URL}/?results=50`, {
+        const response = await fetch(`${API_URL}/?results=${cant}`, {
             method: 'GET',
+            mode: 'cors',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
             }
         });
         const { results } = await response.json();
